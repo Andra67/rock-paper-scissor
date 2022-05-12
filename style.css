@@ -1,0 +1,116 @@
+#computer-hand-image  {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+
+
+#player-hand-image  {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.hand-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 100px;
+    align-items: center;
+    margin: 100px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 50px;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-header {
+    font-size: 36px;
+}
+
+.player-score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.computer-score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:  1px solid white;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+button:active {
+    box-shadow: 0 5px black;
+    opacity: 1;
+}
+
+#rock   {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/rock.png);
+    background-size: contain;
+   
+}
+
+#paper  {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/paper.png);
+    background-size: contain;
+}
+
+
+#scissor  {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/scissor.png);
+    background-size: contain;
+}
