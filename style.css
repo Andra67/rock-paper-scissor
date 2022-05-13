@@ -5,7 +5,18 @@
     border-radius: 50%;
 }
 
+.round-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.round-label {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 #player-hand-image  {
     width: 200px;
@@ -20,7 +31,7 @@
     justify-content: center;
     gap : 100px;
     align-items: center;
-    margin: 100px;
+    margin: 50px;
 }
 
 .btn-container {
@@ -56,7 +67,19 @@
 }
 
 
+#reset  {
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    border:  1px solid white;
+    opacity: 0.9;
+    transition: 0.5s;
+}
 
+.reset-button {
+    display: flex;
+    justify-content: center;
+}
 
 
 
